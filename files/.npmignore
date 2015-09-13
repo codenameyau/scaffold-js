@@ -1,0 +1,17 @@
+test*
+example*
+docs
+
+.jshintrc
+.jshintignore
+.eslintrc
+.eslintignore
+.gitignore
+.editorconfig
+.travis.yml
+
+[gG]ulpfile.js
+[gG]runtfile.js
+
+README.md
+CONTRIBUTING.md

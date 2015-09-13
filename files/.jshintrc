@@ -1,0 +1,194 @@
+{
+  // JSHint Configuration File
+  // See http://jshint.com/docs/ for more details
+
+
+  /*************************************************************************
+  * JAVASCRIPT ENVIRONMENT
+  **************************************************************************/
+  "node": true,
+  "browser": false,
+  "browserify": false,
+  "jquery": false,
+  "mocha": false,
+  "jasmine": false,
+  "phantom": false,
+
+
+  /*************************************************************************
+  * GLOBAL DEFINITIONS
+  **************************************************************************/
+  "globals": {
+    "angular": false,
+    "THREE": false
+  },
+
+
+  /*************************************************************************
+  * THINGS YOU MIGHT WANT TO CHANGE
+  **************************************************************************/
+
+  // {bool}: Prohibit bitwise operators (&, |, ^, etc.)
+  "bitwise": true,
+
+  // {bool}: Identifiers must be in camelCase
+  "camelcase": true,
+
+  // {int}: Number of spaces to use for indentation
+  "indent": 2,
+
+  // {int, false}: Max number of formal params allowed per function
+  "maxparams": 5,
+
+  // {int, false}: Max depth of nested blocks (within functions)
+  "maxdepth": 5,
+
+  // {int, false}: Max number statements per function
+  "maxstatements" : false,
+
+  // {int, false} Max cyclomatic complexity per function
+  "maxcomplexity" : false,
+
+  // {int, false} Max number of characters per line
+  "maxlen": 90,
+
+  // {bool}: Tolerate comma-first style coding
+  "laxcomma": false,
+
+  // {bool}: Disallow any var statements. Only `let` and `const` are allowed.
+  "varstmt": false,
+
+
+  /*************************************************************************
+  * THINGS YOU PROBABLY SHOULDN'T CHANGE
+  **************************************************************************/
+
+  // {bool}: Tolerate Automatic Semicolon Insertion (no semicolons)
+  "asi": false,
+
+  // {bool}: Allow debugger statements e.g. browser breakpoints.
+  "debug": false,
+
+  // {bool}: Development/debugging (alert, confirm, etc)
+  "devel": true,
+
+  // {bool}: Allow ES5 syntax (ex: getters and setters)
+  "es5": false,
+
+  // {bool}: Allow ES.next (ES6) syntax (ex: `class`, `const`)
+  "esnext": true,
+
+  // {bool}: Prohibits overwriting prototypes of native objects such as Array.
+  "freeze": true,
+
+  // {bool}: Allow global "use strict" (also enables 'strict')
+  "globalstrict": true,
+
+  // {bool}: Tolerate using the `__iterator__` property
+  "iterator": false,
+
+  // {bool}: Tolerate functions being defined in loops
+  "loopfunc": false,
+
+  // {int}: Maximum error before stopping
+  "maxerr": 50,
+
+  // {bool}: Require capitalization of all constructor functions e.g. `new Animal()`
+  "newcap": true,
+
+  // {bool}: Prohibit use of empty blocks
+  "noempty": true,
+
+  // {bool}: Prohibit use of `++` & `--`
+  "plusplus": false,
+
+  // {bool}: Tolerate multi-line strings
+  "multistr": false,
+
+  // {bool}: Tolerate generator functions with no yield statement in them.
+  "noyield": false,
+
+  // {bool}: Tolerate invalid typeof operator values
+  "notypeof": false,
+
+  // {bool}: Tolerate using the `__proto__` property
+  "proto": false,
+
+  // {bool}: Tolerate script-targeted URLs
+  "scripturl": false,
+
+  // {bool}: Tolerate using `[]` notation when it can still be expressed in dot notation
+  "sub": false,
+
+  // {bool}: Disallow any var statements. Only `let` and `const` are allowed.
+  "varstmt": false,
+
+
+  /*************************************************************************
+  * JAVASCRIPT: THE BAD PARTS
+  **************************************************************************/
+
+  // {bool}: Tolerate assignments where comparisons would be expected
+  "boss": false,
+
+  // {bool}: Require {} for every new block or scope
+  "curly": true,
+
+  // {bool}: Require strict equality equals (===) for comparison
+  "eqeqeq": true,
+
+  // {bool}: Tolerate use of `== null`
+  "eqnull": false,
+
+  // {bool}: Tolerate use of `eval` and `new Function()`
+  "evil": false,
+
+  // {bool}: Tolerate `ExpressionStatement` as Programs
+  "expr": false,
+
+  // {bool}: Tolerate accessing statement variables outside their block
+  "funcscope": false,
+
+  // {bool}: Require filtering for..in loops with obj.hasOwnProperty()
+  "forin": true,
+
+  // {bool}: Tolerate omitting a semicolon for the last statement of a 1-line block
+  "lastsemic": false,
+
+  // {bool}: Require variables/functions to be defined before being used
+  "latedef": true,
+
+  // {bool}: Tolerate possibly unsafe line breakings
+  "laxbreak": false,
+
+  // {bool}: Prohibit use of `arguments.caller` and `arguments.callee`
+  "noarg": true,
+
+  // {bool}: Prohibit "non-breaking whitespace" characters.
+  "nonbsp": true,
+
+  // {bool}: Prohibit use of constructors for side-effects (without assignment)
+  "nonew": false,
+
+  // {bool}: Allow Mozilla specific syntax (ex: `for each`, multiple try/catch)
+  "moz": false,
+
+  // {bool}: Allows re-define variables later in code e.g. `var x=1; x=2;`
+  "shadow": false,
+
+  // {bool}: Requires all functions run in ES5 Strict Mode
+  "strict": true,
+
+  // {bool}: Tolerate `new function () { ... };` and `new Object;`
+  "supernew": false,
+
+  // {bool}: Require all non-global variables to be declared (prevents global leaks)
+  "undef": true,
+
+  // {true, "vars", "strict"}: Warn about unused variables
+  "unused": true,
+
+  // {bool}: Tolerate using `this` in a non-constructor function
+  "validthis": false
+
+}

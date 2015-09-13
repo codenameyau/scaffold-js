@@ -1,72 +1,13 @@
-#####################################################################
-# PROJECT FILES
-#####################################################################
-
-
-
-#####################################################################
-# SECRET FILES
-#####################################################################
-
-
-
-#####################################################################
-# JAVASCRIPT SPECIFIC
-#####################################################################
-
-# JAVASCRIPT
-bower_components/
+# NODE
 node_modules/
 
-# TEST COVERAGE
-lib-cov
-coverage
-
-# BUILD TOOLS
-[Gg]ulpfile.js
-[Gg]runtfile.js
-.grunt
-
-# CONFIGURATION
+# MISCELLANEOUS
 .lock-wscript
-
-# BINARY
-build/Release
-
-
-#####################################################################
-# MISCELLANEOUS FILES
-#####################################################################
-
-# Distribution / packaging
-env
-build
-dist
-
-# Database Files
-*.sqlite*
-
-# Temp files
-temp
 .cache
-*.egg*
-*.spec
 *.tmp
 *~
-
-# Runtime data
-pids
-*.pid
-*.seed
-
-# Logs
-[Ll]og*
-*.log
 
 # OS related
 .DS_Store
 thumbs.db
 ._*
-
-# DEVOPS
-.vagrant

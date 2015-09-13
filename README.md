@@ -14,14 +14,14 @@ Node CLI for creating the following files:
 sudo npm install -g scaffold-js
 ```
 
+To use the ES6 babel-compiler for eslint, you'll need to install:
+
+```
+sudo npm install -g babel babel-eslint eslint
+```
+
 ### Usage
 
-Creates files that are specified.
 ```
-scaffold-js [files]
-```
-
-Want to remove up those files?
-```
-scaffold-js --remove
+scaffold-js
 ```

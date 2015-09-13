@@ -1,0 +1,35 @@
+{
+  "name": "scaffold-js",
+  "version": "1.0.0",
+  "description": "CLI for creating JS configuration files",
+  "bin": {
+    "scaffold-js": "bin/scaffold.js"
+  },
+  "main": "lib/writer.js",
+  "dependencies": {
+    "async": "^1.4.2",
+    "inquirer": "^0.9.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codenameyau/scaffold-js.git"
+  },
+  "keywords": [
+    "configuration",
+    ".gitignore",
+    ".eslintrc",
+    ".jshintrc",
+    ".npmignore",
+    ".editorconfig"
+  ],
+  "author": "Jorge Yau <codenameyau@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/codenameyau/scaffold-js/issues"
+  },
+  "homepage": "https://github.com/codenameyau/scaffold-js#readme"
+}

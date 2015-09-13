@@ -14,17 +14,17 @@
 # JAVASCRIPT SPECIFIC
 #####################################################################
 
-# JAVASCRIPT
-bower_components/
+# PACKAGE MANAGEMENT
 node_modules/
+bower_components/
 
 # TEST COVERAGE
 lib-cov
 coverage
 
 # BUILD TOOLS
-[Gg]ulpfile.js
-[Gg]runtfile.js
+[gG]ulpfile.js
+[gG]runtfile.js
 .grunt
 
 # CONFIGURATION
@@ -38,32 +38,31 @@ build/Release
 # MISCELLANEOUS FILES
 #####################################################################
 
-# Distribution / packaging
-env
+# DISTRIBUTION (feel free to uncomment)
 build
 dist
 
-# Database Files
+# DATABASE
 *.sqlite*
 
-# Temp files
+# TEMP / CACHE
 temp
+.sass-cache
 .cache
-*.egg*
 *.spec
 *.tmp
 *~
 
-# Runtime data
+# RUNTIME DATA
 pids
 *.pid
 *.seed
 
-# Logs
+# LOGS
 [Ll]og*
 *.log
 
-# OS related
+# OS CRUFT
 .DS_Store
 thumbs.db
 ._*

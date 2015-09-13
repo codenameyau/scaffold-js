@@ -1,6 +1,8 @@
 test*
 example*
 docs
+log*
+*.log
 
 .jshintrc
 .jshintignore
@@ -12,6 +14,8 @@ docs
 
 [gG]ulpfile.js
 [gG]runtfile.js
+bower.json
+**/*.coffee
 
 README.md
 CONTRIBUTING.md

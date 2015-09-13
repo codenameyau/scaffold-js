@@ -22,11 +22,11 @@ var completedCallback = function(error, data) {
 *********************************************************************/
 var fileChoices = [
   new inquirer.Separator(' Select with <space> and confirm with <enter>\n'),
-  { name: '.editorconfig', checked: true },
-  { name: '.gitignore', checked: true },
-  { name: '.eslintrc', checked: true },
-  { name: '.jshintrc', checked: false },
-  { name: '.npmignore', checked: false }
+  { name: 'editorconfig', checked: true },
+  { name: 'eslintrc', checked: true },
+  { name: 'gitignore', checked: true },
+  { name: 'jshintrc', checked: false },
+  { name: 'npmignore', checked: false }
 ];
 
 inquirer.prompt([{
@@ -35,5 +35,5 @@ inquirer.prompt([{
   name: 'scaffold',
   choices: fileChoices
 }], function(answers) {
-  writer.createFiles(answers.scaffold, completedCallback);
+  writer.createHiddenFiles(answers.scaffold, completedCallback);
 });

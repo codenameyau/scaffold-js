@@ -6,7 +6,7 @@
   "parser": "babel-eslint",
 
   "env": {
-    "es6": false,
+    "es6": true,
     "node": true,
     "browser": true,
     "mocha": false,

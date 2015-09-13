@@ -1,6 +1,6 @@
 # scaffold-js
 
-Node CLI that creates the following files:
+Node CLI for creating the following files:
 
 - .gitignore
 - .npmignore

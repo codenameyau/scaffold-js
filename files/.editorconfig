@@ -1,18 +1,17 @@
-# Top-most editorconfig
 root = true
 
-# Unix-style newlines
 [*]
 end_of_line = lf
 insert_final_newline = true
-
-# JavaScript specific
-[*.js]
+trim_trailing_whitespace = true
 indent_style = space
-indent_size = 2
 charset = utf-8
 
-# Matches the exact files either package.json or .travis.yml
-[{package.json,.travis.yml}]
-indent_style = space
+[*.{js,css,scss,html,json,yml}]
 indent_size = 2
+
+[*.{coffee,py}]
+indent_size = 4
+
+[*.md]
+trim_trailing_whitespace = false

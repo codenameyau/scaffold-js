@@ -1,12 +1,13 @@
 # scaffold-js
 
-Node CLI for creating the following files:
+Generators and scaffolding tools come with a lot of cruft. Most of the time, all I want are the configuration files, which you can now create like so: 
 
-- .gitignore
-- .npmignore
-- .eslintrc
-- .jshintrc
-- .editorconfig
+```
+scaffold-js
+```
+
+![Screenshot of scaffold-js](https://cloud.githubusercontent.com/assets/3826772/9849793/018e688c-5abc-11e5-9344-86c603774044.png)
+
 
 ### Installation
 
@@ -18,10 +19,4 @@ To use the ES6 babel-compiler for eslint, you'll need to install:
 
 ```
 sudo npm install -g babel babel-eslint eslint
-```
-
-### Usage
-
-```
-scaffold-js
 ```

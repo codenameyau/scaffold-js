@@ -28,7 +28,8 @@
   *******************************************************************/
   "globals": {
       "angular": false,
-      "THREE": false
+      "THREE": false,
+      '_': true
   },
 
 
@@ -45,7 +46,7 @@
     "valid-jsdoc": 0,
 
     // STYLISTIC
-    "camelcase": 1,
+    "camelcase": 0,
     "comma-spacing": 1,
     "comma-style": [1, "last"],
     "eol-last": 1,
@@ -72,7 +73,7 @@
     // BEST PRACTICES
     "block-scoped-var": 2,
     "curly": 2,
-    "dot-notation": 1,
+    "dot-notation": 0,
     "eqeqeq": 2,
     "guard-for-in": 2,
     "no-else-return": 0,

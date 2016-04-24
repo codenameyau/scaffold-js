@@ -3,8 +3,6 @@
   /******************************************************************
   * JAVASCRIPT ENVIRONMENT
   *******************************************************************/
-  "parser": "babel-eslint",
-
   "env": {
     "es6": true,
     "node": true,
@@ -18,8 +16,8 @@
   },
 
   "ecmaFeatures": {
-      "modules": false,
-      "jsx": false
+    "modules": false,
+    "jsx": false
   },
 
 
@@ -27,9 +25,9 @@
   * GLOBAL DEFINITIONS
   *******************************************************************/
   "globals": {
-      "angular": false,
-      "THREE": false,
-      '_': true
+    "angular": false,
+    "THREE": false,
+    '_': true
   },
 
 

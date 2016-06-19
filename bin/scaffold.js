@@ -22,10 +22,11 @@ var completedCallback = function(error, data) {
 *********************************************************************/
 var fileChoices = [
   new inquirer.Separator(' Select with <space> and confirm with <enter>\n'),
-  { name: 'editorconfig', checked: true },
-  { name: 'eslintrc', checked: true },
+  { name: 'eslintrc.yml', checked: true },
   { name: 'gitignore', checked: true },
+  { name: 'editorconfig', checked: false },
   { name: 'jshintrc', checked: false },
+  { name: 'eslintrc', checked: false },
   { name: 'npmignore', checked: false }
 ];
 

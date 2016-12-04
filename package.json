@@ -1,6 +1,6 @@
 {
   "name": "scaffold-js",
-  "version": "1.0.9",
+  "version": "1.0.10",
   "description": "CLI for creating JS configuration files",
   "bin": {
     "scaffold-js": "bin/scaffold.js"

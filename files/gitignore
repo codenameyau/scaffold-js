@@ -5,30 +5,28 @@
 
 
 #####################################################################
-# SECRET FILES
-#####################################################################
-
-
-
-#####################################################################
 # JAVASCRIPT SPECIFIC
 #####################################################################
 
 # PACKAGE MANAGEMENT
-node_modules/
-bower_components/
+node_modules
+jspm_packages
+bower_components
 
 # TEST COVERAGE
 lib-cov
 coverage
+build/reports
+test/e2e/dist
+/export
 
 # BUILD TOOLS
-[gG]ulpfile.js
-[gG]runtfile.js
 .grunt
+dist
 
 # CONFIGURATION
 .lock-wscript
+.idea
 
 # BINARY
 build/Release
@@ -37,10 +35,6 @@ build/Release
 #####################################################################
 # MISCELLANEOUS FILES
 #####################################################################
-
-# DISTRIBUTION (feel free to uncomment)
-build
-dist
 
 # DATABASE
 *.sqlite*
@@ -64,6 +58,7 @@ pids
 
 # OS CRUFT
 .DS_Store
+.DS_STORE
 thumbs.db
 ._*
 
